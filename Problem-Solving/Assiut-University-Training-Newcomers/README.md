@@ -17,7 +17,7 @@ I am actively **training and solving problems** in the Assiut University Program
 | Sheet #4 | Strings | 9 | 26 |
 | Sheet #3 | Arrays | 10 | 26 |
 | Sheet #2 | Loops | 26 | 26 |
-| Sheet #1 | Data type - Conditions | - | - |
+| Sheet #1 | Data type - Conditions | 26 | 26 |
 
 ---
 
