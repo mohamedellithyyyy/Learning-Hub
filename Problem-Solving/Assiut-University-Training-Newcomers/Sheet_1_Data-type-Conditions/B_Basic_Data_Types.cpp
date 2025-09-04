@@ -13,4 +13,4 @@ int main()
     cout<<myNum << "\n"<<myNumw2<< "\n"<<myLetter<< "\n"<<myFloatNum<< "\n"<<myDoubleNum;
  
     return 0;
-}
+} 
