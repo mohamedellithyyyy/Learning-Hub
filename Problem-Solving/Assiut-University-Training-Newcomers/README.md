@@ -20,7 +20,7 @@ Check out my **Codeforces profile**: [mohamedellithyyy](https://codeforces.com/p
 | Sheet #4 | Strings | 9 | 26 |
 | Sheet #3 | Arrays | 10 | 26 |
 | Sheet #2 | Loops | 26 | 26 |
-| Sheet #1 | Data type - Conditions | - | - |
+| Sheet #1 | Data type - Conditions | 26 | 26 |
 
 ---
 
