@@ -2,6 +2,9 @@
 
 I am actively **training and solving problems** in the Assiut University Programming Training for newcomers. This repository contains solutions for multiple sheets covering a variety of topics, from basic data types to advanced algorithms.  
 
+You can access the **training sheets here**: [Assiut University Training Sheets](https://codeforces.com/group/MWSDmqGsZm/contests)  
+Check out my **Codeforces profile**: [mohamedellithyyy](https://codeforces.com/profile/mohamedellithyyy)  
+
 ---
 
 ## 🏆 My Training Progress
