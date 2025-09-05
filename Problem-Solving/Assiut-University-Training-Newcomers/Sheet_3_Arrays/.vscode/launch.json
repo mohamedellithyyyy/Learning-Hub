@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/mohamed/Desktop/Mind & Soul/Learning-Hub/Problem-Solving/Assiut-University-Training-Newcomers/Sheet_3_Arrays",
+      "program": "/Users/mohamed/Desktop/Mind & Soul/Learning-Hub/Problem-Solving/Assiut-University-Training-Newcomers/Sheet_3_Arrays/build/Debug/outDebug"
+    }
+  ]
+}
