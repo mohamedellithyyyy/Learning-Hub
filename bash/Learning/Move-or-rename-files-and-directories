@@ -1,0 +1,21 @@
+# mv - Move or rename files and directories
+# Moves a file or folder to a new location, or renames it
+
+# Basic usage:
+# mv source_file.txt destination_file.txt
+# Renames source_file.txt to destination_file.txt
+# or moves it to another directory if destination is a folder
+
+# Options:
+
+# -i : Interactive mode; asks before overwriting existing files
+mv -i file.txt /path/to/destination/
+# Prompts before replacing a file at the destination
+
+# -u : Move only if the source file is newer than the destination file
+mv -u file.txt /path/to/destination/
+# Moves the file only if it is newer, preventing unnecessary overwrites
+
+# -v : Verbose mode; shows which files are being moved
+mv -v file.txt /path/to/destination/
+# Output example: 'file.txt -> /path/to/destination/file.txt'

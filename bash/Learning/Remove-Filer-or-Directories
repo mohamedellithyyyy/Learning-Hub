@@ -1,0 +1,24 @@
+# rm - Remove files or directories
+# WARNING: Deleted files cannot be easily recovered
+
+# Basic usage:
+# rm filename
+# Deletes the specified file
+
+# Options:
+
+# -r : Recursively delete a directory and all its contents
+rm -r my_directory/
+# Deletes the directory 'my_directory' and everything inside it
+
+# -i : Interactive mode; asks before deleting each file
+rm -i file.txt
+# Prompts before deleting, helping to avoid accidental removal
+
+# -f : Force delete; ignores nonexistent files and does not prompt
+rm -f file.txt
+# Deletes file.txt without asking, even if it's write-protected
+
+# -v : Verbose mode; shows which files are being removed
+rm -v file.txt
+# Output example: 'removed 'file.txt''

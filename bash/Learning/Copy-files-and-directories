@@ -1,0 +1,17 @@
+# cp - Copy files and directories
+
+# -r : Recursively copy directories and their contents
+cp -r source_dir/ destination_dir/
+# Copies all files and subdirectories from source_dir to destination_dir
+
+# -i : Interactive mode; asks before overwriting existing files
+cp -i file.txt /path/to/destination/
+# Prompts the user before replacing file.txt if it exists in the destination
+
+# -u : Copy only if the source file is newer than the destination file
+cp -u file.txt /path/to/destination/
+# Updates destination only if source is newer, preventing unnecessary copying
+
+# -v : Verbose mode; shows which files are being copied
+cp -v file.txt /path/to/destination/
+# Output example: 'file.txt -> /path/to/destination/file.txt'

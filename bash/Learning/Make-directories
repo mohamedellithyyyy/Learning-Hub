@@ -1,0 +1,21 @@
+# mkdir - Make directories
+# Creates new directories to organize files into folders
+
+# Basic usage:
+# mkdir directory_name
+# Example: mkdir new_directory
+# Creates a directory named 'new_directory'
+
+# Options:
+
+# -p : Create parent directories as needed
+mkdir -p parent_dir/child_dir
+# Creates 'parent_dir' if it doesn't exist, then creates 'child_dir' inside it
+
+# -v : Verbose mode; shows a message for each created directory
+mkdir -v new_directory
+# Output example: 'mkdir: created directory 'new_directory''
+
+# -m : Set file mode (permissions) when creating the directory
+mkdir -m 755 new_directory
+# Creates 'new_directory' with permissions rwxr-xr-x

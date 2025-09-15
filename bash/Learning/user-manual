@@ -1,0 +1,8 @@
+# man displays the manual for a command
+# Syntax: man [command]
+# Navigation:
+#   Space : Next page
+#   b     : Previous page
+#   q     : Quit
+# Alternative on Windows/Git Bash: [command] --help
+echo "Example: man ls (or ls --help on Windows)"

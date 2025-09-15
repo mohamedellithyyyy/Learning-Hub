@@ -1,0 +1,25 @@
+#!/bin/bash
+# Basic usage
+cat my_file.txt
+# Examples:
+# -n : Add line numbers to all lines, including empty lines
+cat -n file.txt
+# Example output:
+# 1  First line
+# 2  
+# 3  Third line
+
+# -b : Add line numbers only to lines that contain text
+cat -b file.txt
+# Example output:
+# 1  First line
+#    (empty line, no number)
+# 2  Third line
+
+# -s : Squeeze multiple consecutive empty lines into a single empty line
+cat -s file.txt
+# Example output: Consecutive blank lines reduced to one
+
+# -v : Display non-printing characters (except tabs and end-of-line)
+cat -v file.txt
+# Example output: Shows hidden characters like ^M for carriage returns

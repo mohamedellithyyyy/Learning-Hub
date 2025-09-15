@@ -1,0 +1,10 @@
+#!/bin/bash
+# Basic usage
+pwd
+# Example output: /home/user/my_directory
+# Options:
+pwd -L   # Show logical path (default). Includes symbolic links.
+pwd -P   # Show physical path, resolving symbolic links to actual locations.
+# Examples:
+pwd -L   # Might show: /home/user/my_directory
+pwd -P   # Might show: /mnt/storage/real_directory

@@ -1,0 +1,26 @@
+# touch - Change file timestamps or create empty files
+# Creates a new empty file if it doesn't exist
+# Updates access and modification times if the file already exists
+
+# Basic usage:
+# touch filename
+# Example: touch file.txt
+# Creates 'file.txt' if it doesn't exist or updates its timestamp if it does
+
+# Options:
+
+# -a : Change only the access time (last read) of the file
+touch -a file.txt
+# Updates the access time without modifying the last modification time
+
+# -m : Change only the modification time (last changed) of the file
+touch -m file.txt
+# Updates the modification time without changing the access time
+
+# -t : Set a specific timestamp for the file
+touch -t 202509151200 file.txt
+# Sets the timestamp to Sep 15, 2025, 12:00
+
+# -c : Do not create a file if it doesn't exist
+touch -c file.txt
+# Only updates timestamps if the file exists; does not create a new file

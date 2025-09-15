@@ -1,0 +1,6 @@
+#!/bin/bash
+cd <foldername>   # Change into the specified folder inside the current directory
+cd ..   # Move up one directory level (go to the parent directory)
+cd ~    # Change to the current user's home directory
+cd -    # Switch back to the previous directory you were in
+cd /    # Change to the root directory of the filesystem

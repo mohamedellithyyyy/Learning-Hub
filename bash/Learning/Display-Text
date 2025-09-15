@@ -1,0 +1,12 @@
+#!/bin/bash
+# Basic usage
+echo "Test"
+# Examples:
+echo -n "Hello, "; echo "World!"
+# Output: Hello, World!
+echo -e "Line1\nLine2"
+# Output:
+# Line1
+# Line2
+echo -E "Line1\nLine2"
+# Output: Line1\nLine2
